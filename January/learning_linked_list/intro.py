@@ -113,12 +113,3 @@ linkedList.insertHeadAtEnd(thirdNode)
 linkedList.deleteInbetweenNode(1)
 # linkedList.deleteLastNode()
 linkedList.printLinkedList()
-
-
-    
-
-
-
-
-
-
