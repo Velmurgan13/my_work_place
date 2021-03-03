@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  grid-gap: 30px;
+}
+
+btn {
+  text-align: center;
+  line-height: 300px;
+  font-size: 70px;
+}
+.btn-primary {
+  background-color: grey;
+  color: red;
+}
+
+.btn-secondary {
+  background-color: rgb(100, 113, 129);
+  color: white;
+}
+
+.btn-neutral {
+  background-color: rgb(209, 208, 208);
+  color: blue;
+}
+
+.btn-accent {
+  background-color: rgb(33, 153, 233);
+  color: brown;
+}
+
+.btn-success {
+  background-color: rgb(70, 146, 70);
+  color: purple;
+}
+
+.btn-alert {
+  background-color: crimson;
+  color: skyblue;
+}
+
+.btn-warning {
+  background-color: orange;
+  color: black;
+}
+
+.btn-info {
+  background-color: rgb(155, 213, 247);
+  color: black;
+}
+
+.btn-delete {
+  background-color: rgb(160, 118, 249);
+  color: green;
+}
+
+.btn-save {
+  background-color: rgb(15, 13, 107);
+  color: white;
+}
