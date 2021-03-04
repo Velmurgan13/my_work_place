@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form>
+      <p>
+        FIRST NAME:
+        <input
+          type="text"
+          placeholder="enter first name"
+          maxlength="30"
+          ="Enter first Name"
+        />
+        (max 30 characters A-Z and a-z)
+      </p>
+      <p>
+        LAST NAME:
+        <input type="text" maxlength="30" placeholder="Enter last Name" /> (max
+        30 characters A-Z and a-z)
+      </p>
+      <p>DATE OF BIRTH: <input type="date" name="" id="" /></p>
+      <p>EMAIL ID: <input type="email" name="" id="" /></p>
+      <label for="mobile">MOBILE NUMBER: </label>
+      <input type="tel" name="" id="mobile" />
+      <p>
+        GENDER: <input type="radio" name="" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="" id="female" />
+        <label for="female">Female</label>
+      </p>
+      <p>
+        ADDRESS: <textarea name="" id="address" cols="30" rows="3"></textarea>
+      </p>
+      <br />
+
+      <label for="city">CITY: </label>
+      <input type="text" name="" id="city" placeholder="enter your city" />
+      <br />
+      <br />
+      <label for="pincode">PINCODE: </label>
+      <input type="text" maxlength="6" name="" id="pincode" />
+      <br />
+      <br />
+      <label for="state">STATE: </label>
+      <input type="text" name="" id="state" placeholder="enter your state" />
+      <br />
+      <br />
+      <label for="country">COUNTRY: </label>
+      <input type="text" name="" id="country" />
+      <br />
+      <br />
+      <p>
+        HOBBIES:
+        <input type="radio" name="" id="singing" />
+        <label for="singing">Singing</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">Drawing</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">Running</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">Painting</label>
+
+        <input type="radio" name="" id="other" />
+        <label for="other">Others: </label>
+        <input type="text" name="" id="" placeholder="Enter your Hobby" />
+      </p>
+
+      <table>
+        <tr>
+          <th>S.No.</th>
+          <th>Examination</th>
+          <th>Board</th>
+          <th>Percentage</th>
+          <th>Year of Passing</th>
+        </tr>
+
+        <tr>
+          <td>1.</td>
+          <td><b>Class X</b></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+        </tr>
+
+        <tr>
+          <td>2.</td>
+          <td><b>Class XII</b></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+        </tr>
+
+        <tr>
+          <td>3.</td>
+          <td><b>Graduation</b></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+        </tr>
+
+        <tr>
+          <td>4.</td>
+          <td><b>Masters</b></td>
+          <td><input type="text" name="" maxlength="10" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="" /></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td><p>(10 char max)</p></td>
+          <td><p>(up to decimal)</p></td>
+        </tr>
+      </table>
+
+      <p>
+        COURSES: <input type="radio" name="" id="singing" />
+        <label for="singing">BCA</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">B.Com</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">B.Sc</label>
+
+        <input type="radio" name="" id="singing" />
+        <label for="singing">B.A.</label>
+
+        <input type="radio" name="" id="other" />
+        <label for="other">Others </label>
+        <br />
+        <br />
+        <button>Submit</button>
+        <button>Reset</button>
+      </p>
+    </form>
+  </body>
+</html>

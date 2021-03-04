@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, crimson, green);
+}
+
+h1 {
+  margin: 10px;
+  padding: 12px;
+  font-size: 100px;
+  color: white;
+}
+
+form {
+  padding: 12px;
+  margin: 10px;
+}
+
+p {
+  padding: 15px;
+  color: teal;
+}
+
+input {
+  border-radius: 50px;
+  border: none;
+  background-color: orange;
+  padding: 12px;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 50px;
+  border: none;
+  background-color: orange;
+  padding: 12px;
+  color: white;
+  outline: none;
+}
+
+label {
+  padding: 15px;
+  color: teal;
+}
+
+tr {
+  padding: 12px;
+}
+
+th {
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+}
+
+button {
+  outline: none;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  background-color: orangered;
+  color: white;
+}
