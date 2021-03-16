@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(218, 228, 248);
+}
+
+h1 {
+  background-color: rgb(236, 208, 171);
+  color: black;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+}
+button {
+  color: brown;
+  font-size: 30px;
+  border-style: double;
+  border-radius: 10px;
+}
+
+.first {
+  font-size: 30px;
+  text-align: center;
+  color: cadetblue;
+  border-radius: 10px;
+}
+
+.second {
+  font-size: 30px;
+  text-align: center;
+  color: cadetblue;
+  border-radius: 10px;
+}
+h2 {
+  background-color: rgb(142, 216, 173);
+  color: black;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  text-align: center;
+}
+input {
+  font-size: 30px;
+}
