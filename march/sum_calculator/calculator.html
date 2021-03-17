@@ -2,22 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Sum Calculator</h1>
-
-    <br />
-
-    <h3 class="first">Num 1 <input type="text" id="Num 1" /></h3>
-    <br />
-    <h3 class="second">Num 2 <input type="text" id="Num 2" /></h3>
-    <br />
-    <h4 class="result"><button onclick="calculate()">calculate</button></h4>
-    <br />
-    <h2 id="answer"></h2>
+    <div class="main">
+      <h1>Calculator</h1>
+      <div class="function">
+        <label for="Number1">Number 1</label>
+        <br />
+        <input type="number" id="Number1" name="Number1" value="" required />
+        <label for="Number2">Number 2</label>
+        <br />
+        <input type="number" id="Number2" name="Number2" value="" required />
+        <label for="oporator">Choose a oporation:</label>
+        <select id="oporator">
+          <option value="select">Select...</option>
+          <option value="sum">Sum</option>
+          <option value="substract">Substract</option>
+          <option value="division">Division</option>
+          <option value="multiply">Multiply</option>
+        </select>
+        <button type="submit" value="" class="submit">submit</button>
+        <h1 id="ans"></h1>
+      </div>
+    </div>
     <script src="calculate.js"></script>
   </body>
 </html>
