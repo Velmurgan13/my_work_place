@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queue Emulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="queue_emulator.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <br />
+        <h1>Queue Emulator</h1>
+
+        <h2>Number You Want Add To The Queue</h2>
+        <input
+          class="input"
+          type="number"
+          id="number"
+          placeholder="Enter The Number"
+          required
+        />
+        <br />
+        <br />
+      </div>
+      <div class="button">
+        <p style="color: red" id="errorMsg"></p>
+        <button class="addBtn" id="addBtn">ADD</button>
+        <button class="removeBtn" id="removeBtn">REMOVE</button>
+        <h5>Result</h5>
+        <div class="main">
+          <h3 id="stack"></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
