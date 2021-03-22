@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(235, 222, 189);
+}
+.container {
+  height: 630px;
+  width: 500px;
+  background-color: rgb(235, 159, 171);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row-1 {
+  height: 170px;
+  width: 500px;
+  background-color: rgb(54, 126, 54);
+}
+
+.col-1 {
+  width: 140px;
+  height: 140px;
+  font-size: 60px;
+  text-align: center;
+  border: 5px solid darkred;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(185, 181, 117);
+}
+.col-1:hover {
+  background-color: coral;
+}
+
+.winner {
+  color: blue;
+}
