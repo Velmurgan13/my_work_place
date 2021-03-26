@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #7edd95d3,
+    #96a1db,
+    rgb(231, 154, 154)
+  );
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 71px;
+  width: 71px;
+  background-color: seashell;
+  border: 2px solid black;
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+.box.black {
+  color: seashell;
+  background-color: black;
+  font-size: 50px;
+}
