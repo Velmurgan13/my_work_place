@@ -1,0 +1,16 @@
+{
+  "name": "data_format",
+  "version": "1.0.0",
+  "description": "in this we are converting json file to csv file format and csv file to json file format",
+  "main": "conversion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "murgan pillai",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "jsonexport": "^3.2.0"
+  }
+}
