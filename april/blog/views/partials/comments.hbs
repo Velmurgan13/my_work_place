@@ -1,0 +1,12 @@
+<div class="border-bottom mb-3">
+    <h2 class="text-info">Comments</h2>
+</div>
+{{#each comments}}
+{{#with this}}
+<div class="mx-1 mb-3 box">
+    <h4>{{name}}</h4>
+    <p class="fs-5">{{email}}</p>
+    <p class="fs-6">{{body}}</p>
+</div>
+{{/with}}
+{{/each}}
