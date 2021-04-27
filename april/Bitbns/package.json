@@ -1,0 +1,14 @@
+{
+  "name": "bitbns",
+  "version": "1.0.0",
+  "description": "Creating my own crypto currency ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murgan Pillai",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
