@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "email": "qwe@ffq.com",
+    "name": "qwe",
+    "password": "12345",
+    "image": "114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
+  },
+  {
+    "email": "asdf@gmail.com",
+    "name": "asdf",
+    "password": "12345",
+    "image": "114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
+  }
+]
