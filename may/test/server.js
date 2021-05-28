@@ -28,8 +28,8 @@ app.set('view engine', 'hbs')
 
 
 
-
 const authRouter = require('./routes/auth')
+
 
 app.use('/', authRouter)
 
