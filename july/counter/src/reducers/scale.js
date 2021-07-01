@@ -6,14 +6,14 @@ const changeNumber = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
       state = {
-        // ...state,
+        ...state,
         counter: state.counter + 1,
       };
       break;
 
     case "DECREMENT":
       state = {
-        // ...state,
+        ...state,
         counter: state.counter - 1,
       };
       break;
