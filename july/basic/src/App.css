@@ -1,0 +1,37 @@
+body {
+  background: rgb(235, 189, 184);
+}
+
+header {
+  background: rgb(226, 233, 167);
+  height: 70px;
+  margin-top: 20px;
+}
+
+.left-bar {
+  float: left;
+  font-size: 25px;
+}
+
+.left-bar li {
+  list-style-type: none;
+}
+
+.right-bar {
+  float: right;
+}
+
+.right-bar li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: darkgreen;
+  padding: 5px;
+  color: aliceblue;
+  margin-top: 600px;
+}
