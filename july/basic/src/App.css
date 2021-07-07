@@ -5,11 +5,12 @@ body {
 header {
   background: rgb(226, 233, 167);
   height: 70px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .left-bar {
   float: left;
+
   font-size: 25px;
 }
 
@@ -33,5 +34,5 @@ header {
   background-color: darkgreen;
   padding: 5px;
   color: aliceblue;
-  margin-top: 600px;
+  margin-top: 630px;
 }
