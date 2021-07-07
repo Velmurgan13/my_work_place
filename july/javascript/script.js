@@ -2,7 +2,7 @@
 
 //strings
 // var name1 = "ramesh";
-// var name2 = "suresh";
+// var name2 = "suresh";       strings can either written in single quote ' ' or in double quote " "
 
 // numbers
 // var num1 = 35;
@@ -10,7 +10,7 @@
 
 // objects
 // var student1 = {
-//   name: "john",
+//   name: "john",             obejects are always in a key - value pair
 //   age: 34,
 //   gender: "male",
 //   working: false,
@@ -18,7 +18,7 @@
 
 // Booleans
 
-// var georgeResult = false;
+// var georgeResult = false;          Boolean always tells either true or false
 // var gokulResult = true;
 
 // // console.log(gokulResult);
@@ -114,15 +114,16 @@
 // Function in Javascript
 
 //created a function
+
 // function avg(arug1, arug2) {
 //   avgResult = (arug1 + arug2) / 2;
 //   return avgResult;
 // }
 
-// student1 = avg(65, 88); // function called
+// student1 = avg(65, 88);                          // function called
 // console.log("average marks of student1 ", student1);
 
-// student2 = avg(49, 74); // function called
+// student2 = avg(49, 74);                          // function called
 // console.log("average marks of student1 ", student2);
 
 // -------------------------------------------------------
@@ -138,7 +139,7 @@
 // }
 
 // -------------------------------------------------------
-// if else condition
+// 2. if else condition
 
 // if (age > 10) {
 //   console.log("go to party");
@@ -146,7 +147,7 @@
 //   console.log("go and study");
 // }
 // -------------------------------------------------------
-//if alse ladder condition
+// 3. if alse ladder condition
 
 // if (age < 10) {
 //   console.log("go to park");
@@ -222,3 +223,98 @@
 //   console.log(rollNo[i]);
 //   i++;
 // }
+// -------------------------------------------------------
+// let myDate = new Date();
+// console.log(myDate);
+// -------------------------------------------------------
+
+// --------- DOM - Documnet Object Model------
+
+// let element = document.getElementById("click");
+// console.log(element);
+
+// document.getElementsByClassName();
+// document.getElementsByTagName();
+// document.getElementById();
+
+// // this are the most commonly used in javascript
+
+// let tagName = document.getElementsByTagName("div");
+
+// let createdElement = document.createElement("p");
+// createdElement.innerText = "This is a created Paragraph";
+// tagName[0].append(createdElement);
+
+// let createdElement2 = document.createElement("b");
+// createdElement2.innerText = "This is Bold Paragraph";
+// tagName[0].replaceChild(createdElement2, createdElement);
+
+// Extra Stuff  - we can see in console following things which is mostly used
+
+// document.title()
+// document.URL()
+// document.location()
+// document.links()
+//document.forms()
+
+// above all things you can check in console
+
+// -------------------------------------------------------
+
+// Events in Javascripts
+
+// function clicked() {
+//   console.log("the button was clicked "); // clicked function will call function when user clicked the button
+// }
+
+// window.onload = function () {
+//   console.log("The document was loaded"); // onload will call the function once the page is completely loaded
+// };
+
+// click.addEventListener("click", function () {
+//   console.log("its clicked");
+// }); // clicked function will call function when user clicked the button
+
+// click.addEventListener("mouseover", function () {
+//   console.log("mouseover is doing"); // when user mouseover the button or container the function is invoked
+// });
+
+// similary there are mouseout , mouseup, mousedown based on requirement we can use it ..
+
+// -------------------------------------------------------
+
+// Arrow Functions
+
+// function total(a, b) {
+//   return a + b;
+// }
+// same function we can also write as shown in below
+
+// total = (a, b) => {
+//   return a + b;
+// };
+
+// -------------------------------------------------------
+
+// setTimeOut and setInterval in Javascript
+
+// 1. setTimeOut
+// loggedTime = () => {
+//   console.log("logged is been done");
+// };
+// let setTime = setTimeout(loggedTime, 3000);   // in setTimeout first arguments takes
+// an function and second arguments takes a time in milliseconds
+
+// important -> to stop setTimeout we have to use clearTimeout.  --> give that var which is assigned to setTimeout
+
+//  2. setInterval
+
+// loggedTime = () => {
+//   console.log("logged is been done in set interval");
+// };
+// let interval = setInterval(loggedTime, 2000); // in setInterval it invokes the same function again and again in given
+// set on time interval.
+
+// important -> to stop setInterval we have to use clearInterval --> give that var which is assigned to setInterval
+
+// -------------------------------------------------------

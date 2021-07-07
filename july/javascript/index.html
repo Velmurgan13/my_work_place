@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>This is Java Script Revision</title>
+    <style>
+      body {
+        background-color: rgb(240, 197, 206);
+      }
+      .btn {
+        background: rgb(163, 163, 216);
+      }
+      .heading {
+        background-color: burlywood;
+      }
+      .hello {
+        background-color: cadetblue;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welocme to Java Script</h1>
-    <h2>Hello World</h2>
+    <h1 class="heading">Welocme to Java Script</h1>
+    <div>
+      <h2 class="hello">Hello World</h2>
+    </div>
     <br />
     <h5></h5>
-    <button class="btn" id="basic-button">Click Me</button>
+    <button class="btn" id="click" onclick="clicked()">Click Me</button>
     <script src="script.js"></script>
   </body>
 </html>
