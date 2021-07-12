@@ -1,6 +1,6 @@
-//data types
+// data types
 
-//strings
+// strings
 // var name1 = "ramesh";
 // var name2 = "suresh";       strings can either written in single quote ' ' or in double quote " "
 
@@ -42,7 +42,7 @@
 // -------------------------------------------------------
 
 // what are the operators in javascripts
-//arethematic operators
+// arethematic operators
 
 // var num1 = 463;
 // var num2 = 10;
@@ -111,9 +111,9 @@
 
 // -------------------------------------------------------
 
-// Function in Javascript
+// Functions in Javascript
 
-//created a function
+// How create a function ?
 
 // function avg(arug1, arug2) {
 //   avgResult = (arug1 + arug2) / 2;
@@ -255,7 +255,7 @@
 // document.URL()
 // document.location()
 // document.links()
-//document.forms()
+// document.forms()
 
 // above all things you can check in console
 
@@ -305,7 +305,8 @@
 // let setTime = setTimeout(loggedTime, 3000);   // in setTimeout first arguments takes
 // an function and second arguments takes a time in milliseconds
 
-// important -> to stop setTimeout we have to use clearTimeout.  --> give that var which is assigned to setTimeout
+// important -> to stop setTimeout we have to use clearTimeout.  --> give that let inside the function ,
+//  which is assigned to setTimeout
 
 //  2. setInterval
 
@@ -318,3 +319,15 @@
 // important -> to stop setInterval we have to use clearInterval --> give that var which is assigned to setInterval
 
 // -------------------------------------------------------
+
+// var a = false;
+// console.log(!a);
+
+// var object = {
+//   users: {
+//     name: "ram",
+//     age: 23,
+//     items: [2, 3, 5, 67, 48, 100],
+//   },
+// };
+// console.log(object.users.items[0]);
