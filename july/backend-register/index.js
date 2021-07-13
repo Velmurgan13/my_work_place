@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const verify = require('./routes/verifyToken')
+const verify = require("./routes/verifyToken");
 
 dotenv.config();
 
@@ -28,6 +28,6 @@ const postRoute = require("./routes/posts");
 
 //Routes Middlewares
 app.use("/api/user", authRoute);
-app.use("/api/posts",verify,  postRoute);
+app.use("/api/posts", verify, postRoute);
 
 app.listen(5000, () => console.log("server up and running"));
